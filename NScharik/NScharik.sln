@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NScharik_ASP_NET_Test", "http://localhost/NScharik_ASP_NET_Test/NScharik_ASP_NET_Test.csproj", "{4CF2E2C1-9154-4E8F-BD79-D87BCB2192CD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85162FAC-0C80-42DC-B3D1-CCED50EC5FC0} = {85162FAC-0C80-42DC-B3D1-CCED50EC5FC0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NScharik", "NScharik\NScharik.csproj", "{85162FAC-0C80-42DC-B3D1-CCED50EC5FC0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NScharik_NUnit_Test", "NScharik_NUnit_Test\NScharik_NUnit_Test.csproj", "{A914E7AC-5BEE-44C5-8F12-5EEEC46FE3BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85162FAC-0C80-42DC-B3D1-CCED50EC5FC0} = {85162FAC-0C80-42DC-B3D1-CCED50EC5FC0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4CF2E2C1-9154-4E8F-BD79-D87BCB2192CD}.Debug.ActiveCfg = Debug|.NET
+		{4CF2E2C1-9154-4E8F-BD79-D87BCB2192CD}.Debug.Build.0 = Debug|.NET
+		{4CF2E2C1-9154-4E8F-BD79-D87BCB2192CD}.Release.ActiveCfg = Release|.NET
+		{4CF2E2C1-9154-4E8F-BD79-D87BCB2192CD}.Release.Build.0 = Release|.NET
+		{85162FAC-0C80-42DC-B3D1-CCED50EC5FC0}.Debug.ActiveCfg = Debug|.NET
+		{85162FAC-0C80-42DC-B3D1-CCED50EC5FC0}.Debug.Build.0 = Debug|.NET
+		{85162FAC-0C80-42DC-B3D1-CCED50EC5FC0}.Release.ActiveCfg = Release|.NET
+		{85162FAC-0C80-42DC-B3D1-CCED50EC5FC0}.Release.Build.0 = Release|.NET
+		{A914E7AC-5BEE-44C5-8F12-5EEEC46FE3BD}.Debug.ActiveCfg = Debug|.NET
+		{A914E7AC-5BEE-44C5-8F12-5EEEC46FE3BD}.Debug.Build.0 = Debug|.NET
+		{A914E7AC-5BEE-44C5-8F12-5EEEC46FE3BD}.Release.ActiveCfg = Release|.NET
+		{A914E7AC-5BEE-44C5-8F12-5EEEC46FE3BD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
